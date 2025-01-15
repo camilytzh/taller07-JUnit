@@ -5,8 +5,6 @@ import main.Operations;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 public class OperationsTest extends TestCase {
     @Test
     @DisplayName("Test para MakeFormula() generando una fórmula válida")
@@ -31,3 +29,5 @@ public class OperationsTest extends TestCase {
         assertTrue(formula.matches(".*[\\+\\-\\*/].*")); // La fórmula debe contener al menos un operador
     }
 }
+
+
